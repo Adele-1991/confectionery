@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-gap {
+  gap: 20px;
+}
+
+.flex-display, .blogs .blogs-right .blog {
+  display: flex;
+  justify-content: center;
+}
+
+.blogs {
+  margin-top: 50px;
+}
+.blogs .blogs-left {
+  width: 50%;
+  position: relative;
+}
+.blogs .blogs-left h2 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 30px 30px 0 30px;
+  color: pink;
+  text-align: center;
+  background-color: rgb(160, 195, 216);
+  border-radius: 15px;
+}
+.blogs .blogs-left h2:hover {
+  cursor: pointer;
+  color: #f08eca;
+  background-color: rgba(129, 219, 235, 0.6);
+  border-radius: 15px;
+}
+.blogs .blogs-left img {
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 0px;
+  opacity: 0.7;
+}
+.blogs .blogs-left .pro-trend {
+  background-color: #fff;
+  position: absolute;
+  padding: 20px 20px;
+  border-radius: 15px;
+  margin-top: -50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.blogs .blogs-left .pro-trend .icons {
+  margin-top: 5px;
+}
+.blogs .blogs-left .pro-trend .icons span {
+  margin-right: 20px;
+}
+.blogs .blogs-left .pro-trend h3 {
+  color: #05bbd4;
+  margin-top: 15px;
+}
+.blogs .blogs-right {
+  width: 50%;
+}
+.blogs .blogs-right .blog {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.blogs .blogs-right .blog .blog-info {
+  width: 70%;
+  padding: 10px 20px;
+}
+.blogs .blogs-right .blog .icon {
+  font-size: 1.2rem;
+}
+.blogs .blogs-right .blog h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #05bbd4;
+}
+.blogs .blogs-right .blog h3 a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.blogs .blogs-right .blog p {
+  text-align: justify;
+}
+.blogs .blogs-right .blog .blog-image {
+  width: 30%;
+  padding: 10px 20px;
+}
+.blogs .blogs-right .blog .blog-image img {
+  width: 160px;
+  height: 130px;
+  border-radius: 15px;
+  opacity: 0.6;
+}
+
+.fa-calendar {
+  color: #ee0a96;
+}
+.fa-calendar:hover {
+  color: #f965c0;
+}
+
+.fa-eye {
+  color: #f53cae;
+}
+.fa-eye:hover {
+  color: #fa9dd6;
+}
+
+.fa-heart {
+  color: #f08eca;
+}
+.fa-heart:hover {
+  color: #fce8f4;
+}/*# sourceMappingURL=blog-style.css.map */
